@@ -80,18 +80,22 @@ const Hero = () => {
               </Button>
             </div>
 
-            <div className="flex items-center gap-6 pt-4">
-              <div className="flex items-center gap-2 text-muted-foreground">
-                <div className="w-10 h-10 rounded-full bg-coral/10 flex items-center justify-center">
-                  <Watch className="w-5 h-5 text-coral" />
-                </div>
-                <span className="text-sm">スマートウォッチ対応</span>
+            <div className="flex flex-wrap items-center gap-3 pt-4">
+              <div className="flex items-center gap-2 text-muted-foreground bg-card/50 rounded-full px-3 py-1.5">
+                <Smartphone className="w-4 h-4 text-coral" />
+                <span className="text-xs">iOS</span>
               </div>
-              <div className="flex items-center gap-2 text-muted-foreground">
-                <div className="w-10 h-10 rounded-full bg-coral/10 flex items-center justify-center">
-                  <Smartphone className="w-5 h-5 text-coral" />
-                </div>
-                <span className="text-sm">Android対応</span>
+              <div className="flex items-center gap-2 text-muted-foreground bg-card/50 rounded-full px-3 py-1.5">
+                <Smartphone className="w-4 h-4 text-coral" />
+                <span className="text-xs">Android</span>
+              </div>
+              <div className="flex items-center gap-2 text-muted-foreground bg-card/50 rounded-full px-3 py-1.5">
+                <Watch className="w-4 h-4 text-coral" />
+                <span className="text-xs">watchOS</span>
+              </div>
+              <div className="flex items-center gap-2 text-muted-foreground bg-card/50 rounded-full px-3 py-1.5">
+                <Watch className="w-4 h-4 text-coral" />
+                <span className="text-xs">Wear OS</span>
               </div>
             </div>
           </motion.div>
