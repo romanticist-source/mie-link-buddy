@@ -22,14 +22,7 @@ const Hero = () => {
           className="flex items-center justify-between mb-16"
         >
           <img src={logo} alt="ミエリンク" className="h-12 object-contain" />
-          <div className="flex gap-4">
-            <Button variant="ghost" className="text-foreground/80 hover:text-foreground">
-              機能紹介
-            </Button>
-            <Button variant="ghost" className="text-foreground/80 hover:text-foreground">
-              使い方
-            </Button>
-          </div>
+  
         </motion.nav>
 
         {/* Main hero content */}

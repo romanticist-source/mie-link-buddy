@@ -23,17 +23,17 @@ const HowItWorks = () => {
       badgePosition: { left: "232px", top: "-15px" },
     },
     {
-      icon: Share2,
+      icon: Users,
       step: "03",
-      title: "周囲と共有",
-      description: "必要な時にリンクやBluetoothでカードを共有。助けを求めやすくなります。",
+      title: "家族と繋がる",
+      description: "介助者や家族にリアルタイムで体調を共有。安心の見守りを実現。",
       badgePosition: { left: "232px", top: "-15px" },
     },
     {
-      icon: Users,
+      icon: Share2,
       step: "04",
-      title: "家族と繋がる",
-      description: "介助者や家族にリアルタイムで体調を共有。安心の見守りを実現。",
+      title: "周囲と共有",
+      description: "必要な時にリンクやBluetoothでカードを共有。助けを求めやすくなります。",
       badgePosition: { left: "232px", top: "-15px" },
     },
   ];
