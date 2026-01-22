@@ -29,9 +29,6 @@ const Hero = () => {
             <Button variant="ghost" className="text-foreground/80 hover:text-foreground">
               使い方
             </Button>
-            <Button className="bg-gradient-primary text-primary-foreground shadow-soft hover:shadow-hover transition-shadow">
-              事前登録
-            </Button>
           </div>
         </motion.nav>
 
@@ -63,22 +60,6 @@ const Hero = () => {
               日々の疲労と体調を数値化して共有。家族や介助者と繋がり、
               離れていても安心できる毎日を支えます。
             </p>
-
-            <div className="flex flex-wrap gap-4">
-              <Button
-                size="lg"
-                className="bg-gradient-primary text-primary-foreground shadow-soft hover:shadow-hover transition-all text-lg px-8"
-              >
-                事前登録する
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-coral/30 text-coral-dark hover:bg-coral/5 text-lg px-8"
-              >
-                詳しく見る
-              </Button>
-            </div>
 
             <div className="flex flex-wrap items-center gap-3 pt-4">
               <div className="flex items-center gap-2 text-muted-foreground bg-card/50 rounded-full px-3 py-1.5">
@@ -123,35 +104,6 @@ const Hero = () => {
                 </div>
               </motion.div>
 
-              {/* Watch mockup */}
-              <motion.div
-                animate={{ y: [0, 8, 0] }}
-                transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-                className="absolute left-4 top-1/4 w-24 h-28 bg-card rounded-2xl shadow-card border-4 border-foreground/10 overflow-hidden"
-              >
-                <div className="w-full h-full bg-gradient-to-b from-peach to-rose-light/30 p-2 flex flex-col items-center justify-center">
-                  <Watch className="w-8 h-8 text-coral mb-1" />
-                  <p className="text-[10px] text-muted-foreground">心拍数</p>
-                  <p className="text-lg font-bold text-coral-dark">72 bpm</p>
-                </div>
-              </motion.div>
-
-              {/* Card preview mockup */}
-              <motion.div
-                animate={{ y: [0, -8, 0] }}
-                transition={{ duration: 2.8, repeat: Infinity, ease: "easeInOut", delay: 0.3 }}
-                className="absolute right-4 bottom-1/4 w-40 bg-card rounded-xl shadow-card p-4"
-              >
-                <div className="flex items-start gap-3">
-                  <div className="w-10 h-10 rounded-full bg-coral/20 flex items-center justify-center flex-shrink-0">
-                    <Heart className="w-5 h-5 text-coral" />
-                  </div>
-                  <div>
-                    <p className="text-xs font-medium text-foreground">体調カード</p>
-                    <p className="text-[10px] text-muted-foreground mt-1">周囲への共有が簡単に</p>
-                  </div>
-                </div>
-              </motion.div>
             </div>
           </motion.div>
         </div>

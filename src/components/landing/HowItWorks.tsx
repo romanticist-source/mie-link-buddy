@@ -13,24 +13,28 @@ const HowItWorks = () => {
       step: "01",
       title: "ウォッチを装着",
       description: "スマートウォッチを装着するだけ。自動でセンサーデータを取得します。",
+      badgePosition: { left: "225px", top: "-12px" },
     },
     {
       icon: Smartphone,
       step: "02",
       title: "体調カードを作成",
       description: "あなたの状況や必要なサポートを体調カードにまとめます。",
+      badgePosition: { left: "232px", top: "-15px" },
     },
     {
       icon: Share2,
       step: "03",
       title: "周囲と共有",
       description: "必要な時にリンクやBluetoothでカードを共有。助けを求めやすくなります。",
+      badgePosition: { left: "232px", top: "-15px" },
     },
     {
       icon: Users,
       step: "04",
       title: "家族と繋がる",
       description: "介助者や家族にリアルタイムで体調を共有。安心の見守りを実現。",
+      badgePosition: { left: "232px", top: "-15px" },
     },
   ];
 
@@ -72,7 +76,10 @@ const HowItWorks = () => {
                 </div>
 
                 {/* Step number badge */}
-                <div className="absolute top-0 right-1/2 translate-x-12 -translate-y-1 w-8 h-8 rounded-full bg-card border-2 border-coral flex items-center justify-center">
+                <div 
+                  className="absolute w-8 h-8 rounded-full bg-card border-2 border-coral flex items-center justify-center"
+                  style={{ left: step.badgePosition.left, top: step.badgePosition.top }}
+                >
                   <span className="text-xs font-bold text-coral">{step.step}</span>
                 </div>
 

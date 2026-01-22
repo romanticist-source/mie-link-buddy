@@ -43,23 +43,6 @@ const CTA = () => {
             事前登録いただいた方には、リリース時に優先してお知らせいたします。
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
-              size="lg"
-              className="bg-gradient-primary text-primary-foreground shadow-soft hover:shadow-hover transition-all text-lg px-10 group"
-            >
-              事前登録する
-              <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-coral/30 text-coral-dark hover:bg-coral/5 text-lg px-10"
-            >
-              <Heart className="mr-2 w-5 h-5" />
-              開発を支援する
-            </Button>
-          </div>
 
           <div className="mt-10 pt-8 border-t border-border">
             <p className="text-sm text-muted-foreground">

@@ -33,23 +33,11 @@ const Features = () => {
       icon: Bell,
       title: "リアルタイム通知",
       description:
-        "センサー値が異常を検知すると自動でアラート。介助者や家族への通知も設定可能です。",
+        "体調の異常を検知すると自動でアラート。介助者や家族への通知も設定可能です。",
       color: "bg-secondary",
     },
-    {
-      icon: Users,
-      title: "介助者連携",
-      description:
-        "家族や介助者とリアルタイムで体調データを共有。離れていても安心を届けます。",
-      color: "bg-coral-light",
-    },
-    {
-      icon: Map,
-      title: "位置共有",
-      description:
-        "マップで現在地を共有。外出時も家族が見守ることができ、緊急時の対応をサポートします。",
-      color: "bg-rose-light",
-    },
+    
+
     {
       icon: BarChart3,
       title: "休息サポート",
@@ -78,7 +66,7 @@ const Features = () => {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {features.map((feature, index) => (
             <motion.div
               key={feature.title}
