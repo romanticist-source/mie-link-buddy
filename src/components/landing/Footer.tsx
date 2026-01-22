@@ -10,17 +10,6 @@ const Footer = () => {
             <img src={logo} alt="ミエリンク" className="h-10 object-contain rounded" />
           </div>
 
-          <div className="flex flex-wrap justify-center gap-6 text-sm">
-            <a href="#" className="hover:text-primary-foreground transition-colors">
-              プライバシーポリシー
-            </a>
-            <a href="#" className="hover:text-primary-foreground transition-colors">
-              利用規約
-            </a>
-            <a href="#" className="hover:text-primary-foreground transition-colors">
-              お問い合わせ
-            </a>
-          </div>
 
           <div className="flex items-center gap-2 text-sm">
             <span>Made with</span>
