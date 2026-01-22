@@ -3,7 +3,7 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Heart, ArrowRight } from "lucide-react";
-import logo from "@/assets/mielink-logo-vertical.jpeg";
+import logo from "@/assets/mielink-logo.svg";
 
 const CTA = () => {
   const ref = useRef(null);

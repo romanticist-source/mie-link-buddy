@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Watch, Smartphone, Heart, ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/mielink-logo.jpeg";
+import logo from "@/assets/image.png";
 
 const Hero = () => {
   return (

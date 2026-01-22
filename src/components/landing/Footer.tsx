@@ -1,5 +1,5 @@
 import { Heart } from "lucide-react";
-import logo from "@/assets/mielink-logo.jpeg";
+import logo from "@/assets/mielink-logo.svg";
 
 const Footer = () => {
   return (
