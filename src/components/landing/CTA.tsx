@@ -38,17 +38,10 @@ const CTA = () => {
             <span className="text-coral">見える支え合い</span>に変えよう
           </h2>
 
-          <p className="text-muted-foreground leading-relaxed max-w-2xl mx-auto mb-10">
-            ミエリンクは現在開発中です。
-            事前登録いただいた方には、リリース時に優先してお知らせいたします。
-          </p>
 
 
-          <div className="mt-10 pt-8 border-t border-border">
-            <p className="text-sm text-muted-foreground">
-              対応予定: Android / Pixel Watch (iOS版は今後検討中)
-            </p>
-          </div>
+
+       
         </motion.div>
       </div>
     </section>
