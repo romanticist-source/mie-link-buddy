@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Watch, Smartphone, Heart, ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import logo from "@/assets/image.png";
+import phoneWithLogin from "@/assets/image copy.png";
 
 const Hero = () => {
   return (
@@ -81,22 +82,19 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="relative flex justify-center items-center"
           >
-            <div className="relative w-full max-w-md aspect-square">
+            <div className="relative w-full max-w-md">
               {/* Main phone mockup */}
               <motion.div
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-96 bg-card rounded-[2.5rem] shadow-card border-8 border-foreground/10 overflow-hidden"
+                className="relative w-full max-w-[300px] mx-auto"
               >
-                <div className="w-full h-full bg-gradient-to-b from-coral/10 to-rose-light/20 p-4 flex flex-col items-center justify-center">
-                  <Heart className="w-16 h-16 text-coral mb-4 animate-pulse-soft" />
-                  <div className="text-center">
-                    <p className="text-xs text-muted-foreground">今日の体調</p>
-                    <p className="text-2xl font-bold text-coral">良好</p>
-                  </div>
-                </div>
+                <img
+                  src={phoneWithLogin}
+                  alt="スマートフォンモックアップ"
+                  className="w-full h-auto"
+                />
               </motion.div>
-
             </div>
           </motion.div>
         </div>
